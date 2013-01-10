@@ -8,7 +8,9 @@ php multi processer
 
 XREP=====================XREP--code--XREQ=======================XREP(workers)
 
+请求时的消息格式：
 
+ message sended format: [version,command,[sequence,timestamp,expires],method,params]
 
-
-	
+请求结果返回的消息格式：
+ message received format: [version,command,[sequence,timestamp,status],reply]
