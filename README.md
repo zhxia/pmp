@@ -14,3 +14,11 @@ XREP=====================XREP--code--XREQ=======================XREP(workers)
 
 请求结果返回的消息格式：
  message received format: [version,command,[sequence,timestamp,status],reply]
+
+示例使用：
+
+进入example:
+
+开启服务端: php demo_proxy.php
+
+开启客户端：php demo_client.php
